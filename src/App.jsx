@@ -354,14 +354,14 @@ function ThreeDPhotoCarousel() {
 
   const cards = useMemo(
     () => [
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1499933374294-4584851497cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1507652313656-b1480407dd9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1588820786963-f0273766a506?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.82787-15/650744187_18358097425202151_3700950637821920440_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=110&ig_cache_key=Mzg1MDY0MTE1ODAyNDYwNzgzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxMC5oZHIuQzMifQ%3D%3D&_nc_ohc=kz80Nc-5u6oQ7kNvwHrXw6g&_nc_oc=AdrF3u5Ce-GNf_9nNAnQglA8tQ8VIpVkSvfibAr8hOEAxV9hP4J08ePmSgfQ5FwWFqc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=jq-qAuqy5fDwBdCdT6qJWg&_nc_ss=8&oh=00_AfzeAaxpMrndKNgVtoE6Y7UeSfugrNuGP2J4g50DRdRvjw&oe=69C0B1ED",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t39.30808-6/452422176_18284506306202151_8514655121567714658_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=104&ig_cache_key=MzQxODU5NzkwMDA3OTczOTc4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=Qkm0mlZwK5gQ7kNvwFjLzau&_nc_oc=AdqeyNfx8l7BSQhoQor85h6n_gKDMO9_o255lHzAmeokm5hPsxIyPa-N7m4SNiR6cyc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=Xw6T0NHKKegI4J13REvnhA&_nc_ss=8&oh=00_AfxBepXrgpkoF-T_RzJM04TWUYH1SLFqUiJ-0_0twV1C_w&oe=69C0EC60",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.75761-15/465893730_18298128130202151_227418933964777725_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzQ5NjAyNDg2OTE0MzQ5MjE4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=NJS_D4YQSbYQ7kNvwEJf3j4&_nc_oc=AdpzW_sbT4wScOWhaw0fYZGl6X5Twp3mskn5-WL7PIJndkryiMOWMTGiASNrnFylDDQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=X39YzAyaMFIou7TBe-x6cg&_nc_ss=8&oh=00_Afwkx7NG9ouXtdzK6-Y6WjbOiNmvzNTZpfCashsSj6isqg&oe=69C0B534",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.75761-15/476834900_18309300487202151_4611011169523297517_n.jpg?stp=dst-jpegr_e35_p480x480_tt6&_nc_cat=110&ig_cache_key=MzU2MjcyMjIyNDE4MjE4NzU5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=FM50Dlg7xo8Q7kNvwGKvMH0&_nc_oc=AdrH7cuOJx7eCi-vo-iBVhUqyySHcL1uhXoXHJ8zjMcz60_XGVI3CiKvqv6U8kUrzdk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.fssa32-1.fna&_nc_gid=ycInvHUmxemiBe4muZZjoA&_nc_ss=8&oh=00_AfxVzigjRn6QMxhaGf4kHTlJxGPE0uRgrlzeGZol3HshlA&oe=69C0BFCE",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.75761-15/488372204_18032133167641482_7877479175749112703_n.jpg?stp=dst-jpg_e35_p480x480_tt6&_nc_cat=104&ig_cache_key=MzYwMjg2MTE1ODA4NjQ0Nzk4MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=pP1rXa-NiqsQ7kNvwGI8rEX&_nc_oc=AdqN0DYXSnHNxCz9e_E5hpKSfzPWFfMWqKuy7jSX4Wk9apsD-_McXrF_tJVtD0O5ttw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=ndyYOas-09m85W4YSj9I5g&_nc_ss=8&oh=00_AfxoSRDMapbAjtBrI_gkXBmzyj8UbHbIalk1Oom5BQ34tw&oe=69C0B770",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.82787-15/564398629_18338234722202151_2485407233081515205_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc0MTk3NDY3NDAwNDkxODE0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxMC5zZHIuQzMifQ%3D%3D&_nc_ohc=5zP-Ek8G0kMQ7kNvwG-h4hR&_nc_oc=Adr8Yjoqk1uFSsv1ZgpDkkKrIFSZifHzVH13BT9A5ZekCwW2_6n7Epjma4w4H5_lT4U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=FRB_GoJzwUN5qey-CYDsXg&_nc_ss=8&oh=00_Afy_WZzuXnb_Wcd-zIXeTDlMnNh_m671vl-jS-fGgYYQDw&oe=69C0E80B",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.82787-15/650074919_18357836017202151_586050577501619434_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzg0OTMxNTI1OTM1MDA3NDkzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=yLO2hCHHW3AQ7kNvwEn2Xyb&_nc_oc=AdqSXXwSMAU85d3PSYhoUp2WeB2t4bttxdlR6dBjc5DiDTnBj4BZq92L-AyOKMa5DHs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=jq-qAuqy5fDwBdCdT6qJWg&_nc_ss=8&oh=00_AfzrxgQzzLCURsV2H69oeeK4oK--LoRp5u9Df6clEiV5Gg&oe=69C0D0C6",
+      "https://instagram.fssa32-1.fna.fbcdn.net/v/t51.82787-15/649338645_18357827116202151_2843770794457938260_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzg0OTI1MDI2NzQ3NzQ1NzYwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=FM-UVt48SB0Q7kNvwFKgWDc&_nc_oc=AdphoaiKQbjnM5O-mkdjAD06bXHwWakVRdWQXsrihJwYDIgCsLeDEsB_WEg5ltfpSbk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa32-1.fna&_nc_gid=jq-qAuqy5fDwBdCdT6qJWg&_nc_ss=8&oh=00_AfzFF9l8rpXfutz7ZB2rHzRRCrFvlPA2hCIDjU4PlI2ERA&oe=69C0C317"
     ],
     []
   )
@@ -444,31 +444,31 @@ const App = () => {
       cursive: "Arte do",
       serif: "Bronze",
       items: ["Bronzeamento Natural", "Bronzeamento a Jato", "Banho de Lua"],
-      img: "https://images.unsplash.com/photo-1507652313656-b1480407dd9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "arte_do_bronze.png",
     },
     {
       cursive: "Detalhes de",
       serif: "Elegância",
       items: ["Manicure & Pedicure", "Alongamento de Unhas", "Spa dos Pés"],
-      img: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "detalhes_de_elegancia.png",
     },
     {
       cursive: "Ritual dos",
       serif: "Fios",
       items: ["Cortes & Escovas", "Mechas & Coloração", "Hidratação Profunda"],
-      img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "ritual_dos_fios.png",
     },
     {
       cursive: "Olhar de",
       serif: "Nobreza",
       items: ["Design de Sobrancelha", "Brow Lamination", "Lash Lifting"],
-      img: "https://images.unsplash.com/photo-1588820786963-f0273766a506?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "olhar_de_nobreza.png",
     },
     {
       cursive: "Toque de",
       serif: "Brilho",
       items: ["Esfoliação Corporal", "Massagem Relaxante", "Banhos Especiais"],
-      img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "toque_de_brilho.png",
     }
   ];
 
