@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes shimmer-orange {
+    0% {
+      background-position: 200% 0%;
+    }
+    100% {
+      background-position: -200% 0%;
+    }
+  }
+
+  .shimmer-btn {
+    background: linear-gradient(
+      110deg,
+      #fe6637 0%,
+      #fe6637 40%,
+      #ff8a65 50%,
+      #fe6637 60%,
+      #fe6637 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer-orange 3s infinite linear;
+  }
+
+  .shimmer-btn:hover {
+    background: linear-gradient(
+      110deg,
+      #e6552b 0%,
+      #e6552b 40%,
+      #ff7043 50%,
+      #e6552b 60%,
+      #e6552b 100%
+    );
+    background-size: 200% 100%;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
